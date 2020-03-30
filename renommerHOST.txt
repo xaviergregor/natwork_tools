@@ -1,0 +1,5 @@
+Trois commandes permettent de modifier le nom :
+
+sudo scutil --set ComputerName "Nouveau Nom"
+sudo scutil --set LocalHostName "Nouveau Nom"
+sudo scutil --set HostName "Nouveau Nom"
