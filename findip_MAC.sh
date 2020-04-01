@@ -1,9 +1,10 @@
 #! /bin/bash
-echo "Enter the MAC address to search"
+#
+echo " Entrer la MAC address a rechercher "
 read mac
 result=$(arp-scan -l | grep "$mac" | awk '{print $1}')
 if [ $result ]; then
-      echo "The IP address for device $mac is $result"
+      echo "L'addresse IP pour ce perepherique $mac est $result"
     else
-          echo "No result, device not on network"
+          echo "Pas de resultat, peripherique non sur le reseau"
 fi
