@@ -1,7 +1,6 @@
 #ping in python
 
 #Ping en Python
-#
 
 import os
 hostname = "google.fr"
